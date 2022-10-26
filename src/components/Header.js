@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../photos/logo.png';
 import '../stylesheets/Header.css';
+import { Link, Route, Routes } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -11,9 +12,9 @@ const Header = () => {
         aria-label='main navigation'
       >
         <div class='navbar-brand'>
-          <a class='navbar-item' href='#'>
+          <Link to='/' class='navbar-item' href='#'>
             <img src={logo} width='112' />
-          </a>
+          </Link>
 
           <a
             role='button'
@@ -30,13 +31,21 @@ const Header = () => {
 
         <div id='navbarBasicExample' class='navbar-menu'>
           <div class='navbar-start'>
-            <a class='navbar-item'>Home</a>
+            <Link to='/' class='navbar-item'>
+              Home
+            </Link>
 
-            <a class='navbar-item'>About</a>
+            <Link to='/about' class='navbar-item'>
+              About
+            </Link>
 
-            <a class='navbar-item'>Projects</a>
+            <Link to='/projects' class='navbar-item'>
+              Projects
+            </Link>
 
-            <a class='navbar-item'>Contact</a>
+            <Link to='/contact' class='navbar-item'>
+              Contact
+            </Link>
           </div>
 
           <div class='navbar-end'>
