@@ -6,9 +6,8 @@ import '../stylesheets/About.css';
 const About = () => {
   return (
     <body>
-      <div class='columns'>
+      <div class='columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd'>
         <div class='column is-one-quarter'></div>
-
         <div class='column'>
           <section class='section'>
             <h1 class='title is-1'>About</h1>
@@ -63,7 +62,7 @@ const About = () => {
               <div class='block'></div>
               <h2 class='title is-2'>Technologies</h2>
               <div class='block'>
-                <div class='columns'>
+                <div class='columns is-mobile'>
                   <div class='column'>
                     <ul>
                       <li>&#10095; HTML5</li>
