@@ -44,7 +44,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        
+
         <div class='column'>
           <div class='card'>
             <div class='card-image'>

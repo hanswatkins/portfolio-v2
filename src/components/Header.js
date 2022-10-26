@@ -2,6 +2,10 @@ import React from 'react';
 import logo from '../photos/logo.png';
 import '../stylesheets/Header.css';
 import { Link, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Projects from './Projects';
+import About from './About';
+import Contact from './Contact';
 
 const Header = () => {
   return (
@@ -12,7 +16,7 @@ const Header = () => {
         aria-label='main navigation'
       >
         <div class='navbar-brand'>
-          <Link to='/' class='navbar-item' href='#'>
+          <Link to='/' class='navbar-item'>
             <img src={logo} width='112' />
           </Link>
 
@@ -60,6 +64,13 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </header>
   );
 };
