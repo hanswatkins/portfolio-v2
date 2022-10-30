@@ -17,7 +17,7 @@ const Header = () => {
       >
         <div class='navbar-brand'>
           <Link to='/' class='navbar-item'>
-            <img src={logo} width='112' />
+            <img src={logo} width='112' alt='logo' />
           </Link>
 
           <a
@@ -25,7 +25,7 @@ const Header = () => {
             class='navbar-burger'
             aria-label='menu'
             aria-expanded='false'
-            data-target='navbarBasicExample'
+            data-target='navbar'
           >
             <span aria-hidden='true'></span>
             <span aria-hidden='true'></span>
@@ -33,7 +33,7 @@ const Header = () => {
           </a>
         </div>
 
-        <div id='navbarBasicExample' class='navbar-menu'>
+        <div id='navbar' class='navbar-menu'>
           <div class='navbar-start'>
             <Link to='/' class='navbar-item'>
               Home

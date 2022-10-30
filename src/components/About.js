@@ -1,16 +1,26 @@
 import React from 'react';
 import umgPic from '../photos/umgPic.jpg';
 import spotifyPic from '../photos/spotifyPic.jpg';
+import { Link } from 'react-router-dom';
+
 import '../stylesheets/About.css';
 
 const About = () => {
   return (
     <body>
-      <div class='columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd'>
-        <div class='column is-one-quarter'></div>
+      <div class='columns'>
+        <div class='column is-one-third-tablet'></div>
         <div class='column'>
           <section class='section'>
             <h1 class='title is-1'>About</h1>
+            <figure class='image is-16by9'>
+              <img
+                src={umgPic}
+                alt='My hands on a synthesizer from a birds-eye view with various musical equipment on the table'
+                style={{ borderRadius: '2%' }}
+              ></img>
+            </figure>
+            <div class='block'></div>
             <div class='block'>
               <p>
                 I began my career as a freelance music producer. I had the
@@ -26,9 +36,9 @@ const About = () => {
                   className='about-link'
                   href='https://www.youtube.com/watch?v=CcxzkM5i8Ns'
                 >
-                  developing partnerships
-                </a>{' '}
-                with Universal Music Group, Bluenote Records, and{' '}
+                  developing partnerships with Universal Music Group
+                </a>
+                , Bluenote Records, and{' '}
                 <a
                   className='about-link'
                   href='https://www.ableton.com/en/blog/studies-sound-arbour-lo-fi-beats-and-musical-exploration/'
@@ -44,23 +54,18 @@ const About = () => {
                 </a>{' '}
                 live stream out there.
                 <div class='block'></div>
-                <figure class='image is-16by9'>
-                  <img
-                    src={umgPic}
-                    alt='My hands on a synthesizer from a birds-eye view with various musical equipment on the table'
-                    style={{ borderRadius: '2%' }}
-                  ></img>
-                </figure>
                 <div class='block'></div>
                 Now, my curiosity has led me in the direction of Software
                 Engineering. In August, I graduated from General Assembly's
                 Software Engineering Immersive with over 500 hours of
                 engineering experience and several full stack applications.
-                Check out some of my <a href='#'>projects!</a>
+                Check out some of my <a href='/projects'>projects</a>!
               </p>
 
               <div class='block'></div>
-              <h2 class='title is-2'>Technologies</h2>
+              <h2 class='title is-2' style={{ textAlign: 'left' }}>
+                Technologies
+              </h2>
               <div class='block'>
                 <div class='columns is-mobile'>
                   <div class='column'>
@@ -89,7 +94,7 @@ const About = () => {
           </section>
         </div>
 
-        <div class='column is-one-quarter'></div>
+        <div class='column is-one-third-tablet'></div>
       </div>
     </body>
   );

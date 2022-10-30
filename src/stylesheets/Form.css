@@ -6,6 +6,14 @@ input {
   margin-bottom: 1.5rem;
 }
 
+.label {
+  margin-top: 1.5rem;
+}
+
 textarea {
   margin-bottom: 1.5rem;
+}
+
+.button {
+  margin-top: 1rem;
 }
