@@ -7,12 +7,12 @@ import '../stylesheets/About.css';
 
 const About = () => {
   return (
-    <body>
+    <section class='section is-medium' style={{ backgroundColor: '#f1e7db' }}>
       <div class='columns'>
         <div class='column is-one-third-tablet'></div>
         <div class='column'>
           <section class='section'>
-            <h1 class='title is-1'>About</h1>
+            <h1 className='about-title'>About</h1>
             <figure class='image is-16by9'>
               <img
                 src={umgPic}
@@ -96,7 +96,7 @@ const About = () => {
 
         <div class='column is-one-third-tablet'></div>
       </div>
-    </body>
+    </section>
   );
 };
 

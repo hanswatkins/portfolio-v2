@@ -1,8 +1,35 @@
-.columns.is-centered {
+@font-face {
+  font-family: InterRegular;
+  src: url('../fonts/Inter-Regular.woff2');
+}
+@font-face {
+  font-family: InterBold;
+  src: url('../fonts/Inter-Bold.woff2');
+}
+@font-face {
+  font-family: InterExtraBold;
+  src: url('../fonts/Inter-ExtraBold.woff2');
+}
+
+@import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
+
+/* .columns.is-centered {
   align-items: center;
 }
 
 .container {
   padding: 3rem;
   padding-top: 10rem;
+} */
+
+.main-title {
+  font-family: InterExtraBold, Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  color: #f1e7db;
+}
+
+.main-subtitle {
+  font-family: InterRegular, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #f1e7db;
 }

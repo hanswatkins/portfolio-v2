@@ -17,7 +17,7 @@ const Header = () => {
       >
         <div class='navbar-brand'>
           <Link to='/' class='navbar-item'>
-            <img src={logo} width='112' alt='logo' />
+            <i class='fa-regular fa-face-smile'></i>
           </Link>
 
           <a

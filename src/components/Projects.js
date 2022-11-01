@@ -6,7 +6,7 @@ import meetNEat from '../photos/meetNEat.png';
 
 const Projects = () => {
   return (
-    <body>
+    <section class='section is-large' style={{ backgroundColor: '#d4d3c3' }}>
       <div class='block'></div>
       <div class='columns'>
         <div class='column'></div>
@@ -64,7 +64,7 @@ const Projects = () => {
         </div>
         <div class='column'></div>
       </div>
-    </body>
+    </section>
   );
 };
 

@@ -1,21 +1,38 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
-html {
-  background-color: #f1edea;
+@font-face {
+  font-family: InterRegular;
+  src: url('../fonts/Inter-Regular.woff2');
 }
-
-body {
-  height: 97vh;
+@font-face {
+  font-family: InterBold;
+  src: url('../fonts/Inter-Bold.woff2');
+}
+@font-face {
+  font-family: InterExtraBold;
+  src: url('../fonts/Inter-ExtraBold.woff2');
 }
 
 section {
   color: #28282c;
 }
 
-.title {
+.about-title {
   color: #28282c;
+  font-family: InterExtraBold;
+  font-size: 5rem;
+  /* position: absolute;
+  z-index: 1;
+  padding-left: 1rem; */
 }
 
 a {
-  color: #6868ac;
+  color: black;
+}
+
+p,
+li {
+  font-family: InterRegular, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #28282c;
 }
