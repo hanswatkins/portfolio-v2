@@ -12,7 +12,7 @@ const About = () => {
         <div class='column is-one-third-tablet'></div>
         <div class='column'>
           <section class='section'>
-            <h1 className='about-title'>About</h1>
+            <h1 className='about-title'>About.</h1>
             <figure class='image is-16by9'>
               <img
                 src={umgPic}
@@ -63,7 +63,7 @@ const About = () => {
               </p>
 
               <div class='block'></div>
-              <h2 class='title is-2' style={{ textAlign: 'left' }}>
+              <h2 class='title is-4' style={{ textAlign: 'center' }}>
                 Technologies
               </h2>
               <div class='block'>

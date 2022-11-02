@@ -18,9 +18,11 @@ section {
 }
 
 .about-title {
-  color: #28282c;
   font-family: InterExtraBold;
   font-size: 5rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #28282c;
+
   /* position: absolute;
   z-index: 1;
   padding-left: 1rem; */
@@ -34,6 +36,4 @@ p,
 li {
   font-family: InterRegular, Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  color: #28282c;
 }
-

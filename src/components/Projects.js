@@ -9,6 +9,7 @@ const Projects = () => {
     <div class='container-adjust'>
       <section class='section is-large' style={{ backgroundColor: '#d4d3c3' }}>
         <div class='container'>
+          <h1 className='projects-title'>Projects.</h1>
           <div class='columns'>
             <div class='column'>
               <div class='card'>
@@ -39,7 +40,7 @@ const Projects = () => {
                   <div class='content'>
                     A weather app using weatherapi.com's API which returns the
                     current weather condition, a weather icon, temperature, UV
-                    index, and wind speed and direction.
+                    index, and wind speed.
                     <br />
                   </div>
                 </div>
