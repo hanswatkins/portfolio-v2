@@ -24,8 +24,9 @@
 
 .main-title {
   font-family: InterExtraBold, Arial, Helvetica, sans-serif;
-  font-size: 5rem;
-  color: #f1e7db;
+  font-size: 6rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #f1e7db;
 }
 
 .main-subtitle {
