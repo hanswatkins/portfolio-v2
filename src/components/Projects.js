@@ -7,62 +7,122 @@ import meetNEat from '../photos/meetNEat.png';
 const Projects = () => {
   return (
     <div class='container-adjust'>
-      <section class='section is-large' style={{ backgroundColor: '#d4d3c3' }}>
-        <div class='container'>
-          <h1 className='projects-title'>Projects.</h1>
+      <section class='section is-medium' style={{ backgroundColor: '#fafafa' }}>
+        <div class='container-max-width'>
+          <h1 class='projects-title has-text-centered'>Projects.</h1>
           <div class='columns'>
             <div class='column'>
-              <div class='card'>
-                <div class='card-image'>
-                  <figure class='image is-1by1'>
-                    <img src={jsPixartPic} alt='Placeholder' />
-                  </figure>
-                </div>
-                <div class='card-content'>
-                  <p class='title'>JS Pixart</p>
-                  <div class='content'>
-                    A pixel art app using DOM manipulation to change the color
-                    of 8000 tiny divs based on the user's color selection.
-                    <br />
+              <section class='section border-bottom pb-6'>
+                <div class='container'>
+                  <div class='columns'>
+                    <div class='column'>
+                      <a href='https://js-pixart.netlify.app/'>
+                        <div
+                          class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
+                          style={{
+                            backgroundColor: '#fafafa',
+                            outline: '1px solid',
+                          }}
+                        >
+                          <div class='card-image p-5 pb-6'>
+                            <figure class='image'>
+                              <img
+                                class='is-img-center'
+                                src={jsPixartPic}
+                                alt='Placeholder image'
+                              />
+                            </figure>
+                          </div>
+                          <div class='card-content py-5'>
+                            <div class='content'>
+                              <h2 class='mt-2 mb-6'>JS Pixart</h2>
+                              <p class='mb-4'>
+                                A pixel art app using DOM manipulation to change
+                                the color of 8000 tiny divs based on the user's
+                                color selection.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
             <div class='column'>
-              <div class='card'>
-                <div class='card-image'>
-                  <figure class='image is-1by1'>
-                    <img src={weatherPic} alt='Placeholder' />
-                  </figure>
-                </div>
-                <div class='card-content'>
-                  <p class='title'>What's the Weather?</p>
-                  <div class='content'>
-                    A weather app using weatherapi.com's API which returns the
-                    current weather condition, a weather icon, temperature, UV
-                    index, and wind speed.
-                    <br />
+              <section class='section border-bottom pb-6'>
+                <div class='container'>
+                  <div class='columns'>
+                    <div class='column'>
+                      <a href='https://hans-weather.netlify.app/'>
+                        <div
+                          class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
+                          style={{
+                            backgroundColor: '#fafafa',
+                            outline: '1px solid',
+                          }}
+                        >
+                          <div class='card-image p-5 pb-6'>
+                            <figure class='image'>
+                              <img class='is-img-center' src={weatherPic} />
+                            </figure>
+                          </div>
+                          <div class='card-content py-5'>
+                            <div class='content'>
+                              <h2 class='mt-2 mb-6'>What's The Weather?</h2>
+                              <p class='mb-4'>
+                                A weather app connected to an API which returns
+                                current weather, UV index, wind speed, and wind
+                                direction.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
             <div class='column'>
-              <div class='card'>
-                <div class='card-image'>
-                  <figure class='image is-1by1'>
-                    <img src={meetNEat} alt='Placeholder' />
-                  </figure>
-                </div>
-                <div class='card-content'>
-                  <p class='title'>Meet-N-Eat</p>
-                  <div class='content'>
-                    A full stack MERN app for meeting friends based on mutually
-                    "liked" restaurants. Created using agile methodologies and a
-                    team of 4 in one week.
-                    <br />
+              <section class='section border-bottom pb-6'>
+                <div class='container'>
+                  <div class='columns'>
+                    <div class='column'>
+                      <a href='https://meet-n-eat.netlify.app/home'>
+                        <div
+                          class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
+                          style={{
+                            backgroundColor: '#fafafa',
+                            outline: '1px solid',
+                          }}
+                        >
+                          <div class='card-image p-5 pb-6'>
+                            <figure class='image'>
+                              <img
+                                class='is-img-center'
+                                src={meetNEat}
+                                alt='Placeholder image'
+                              />
+                            </figure>
+                          </div>
+                          <div class='card-content py-5'>
+                            <div class='content'>
+                              <h2 class='mt-2 mb-6'>Meet-N-Eat</h2>
+                              <p class='mb-4'>
+                                A MERN app for meeting friends based on mutually
+                                "liked" restaurants. Made on an agile team of
+                                four.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

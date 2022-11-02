@@ -1,5 +1,18 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
+@font-face {
+  font-family: InterRegular;
+  src: url('../fonts/Inter-Regular.woff2');
+}
+@font-face {
+  font-family: InterBold;
+  src: url('../fonts/Inter-Bold.woff2');
+}
+@font-face {
+  font-family: InterExtraBold;
+  src: url('../fonts/Inter-ExtraBold.woff2');
+}
+
 .title {
   white-space: nowrap;
 }
@@ -8,7 +21,19 @@
   font-family: InterExtraBold;
   font-size: 5rem;
   color: transparent;
-  -webkit-text-stroke: 1px #2f4a5b;
+  -webkit-text-stroke: 1px black;
+}
+
+.column {
+  padding: 0px;
+}
+
+.content {
+  font-family: InterBold;
+}
+
+p {
+  font-family: InterRegular;
 }
 
 .is-duration-500 {
