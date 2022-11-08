@@ -22,17 +22,16 @@
   padding-top: 10rem;
 } */
 
-.main-title {
+.title {
   font-family: InterExtraBold, Arial, Helvetica, sans-serif;
-  font-size: 6rem;
-  color: transparent;
+  /* font-size: 6rem; */
+  color: transparent!important;
   -webkit-text-stroke: 1px #f1e7db;
 }
 
-.main-subtitle {
+.subtitle {
   font-family: InterRegular, Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  color: #f1e7db;
+  color: #f1e7db!important;
 }
 
 

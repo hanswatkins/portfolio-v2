@@ -10,11 +10,11 @@ const Home = () => {
 		>
 			
 			<div class='hero-body'>
-				<div>
-					<p className='main-title'>Hi, I'm Hans Watkins.</p>
-					<p className='main-subtitle'>a Full-Stack Software Developer </p>
+				<div class=''>
+					<p className='title is-size-1 is-size-2-mobile'>Hi, I'm Hans Watkins.</p>
+					<p className='subtitle is-size-4 is-size-5-mobile '>a Full-Stack Software Developer </p>
 				</div>
-				<span id="lamp-anim" class="lamp-anim" width="1500px" height="700px"></span>
+				
 
 			</div>
 		</section>
