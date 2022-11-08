@@ -3,8 +3,8 @@ import '../stylesheets/Projects.css';
 import jsPixartPic from '../photos/jspixartpic.jpeg';
 import weatherPic from '../photos/weatherPic.png';
 import meetNEat from '../photos/meetNEat.png';
-import twitterPortal from '../photos/twitterPortal.gif'
-import wowGen from '../photos/wowGen.png'
+import twitterPortal from '../photos/twitterPortal.gif';
+import wowGen from '../photos/wowGen.png';
 
 const Projects = () => {
 	return (
@@ -13,12 +13,12 @@ const Projects = () => {
 				<div class='container-max-width'>
 					<h1 class='projects-title has-text-centered'>Projects.</h1>
 					<div class='columns'>
-					<div class='column'>
+						<div class='column'>
 							<section class='section border-bottom'>
 								<div class='container'>
 									<div class='columns'>
 										<div class='column'>
-											<a href='https://meet-n-eat.netlify.app/home'>
+											<a href='https://large-type.com/#not%20yet%20deployed!%20check%20back%20soon'>
 												<div
 													class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
 													style={{
@@ -38,7 +38,9 @@ const Projects = () => {
 														<div class='content'>
 															<h2 class='mt-2 mb-3'>Twitter Portal</h2>
 															<p class='mb-4'>
-																A simple Twitter posting portal using the Twitter API. Styled with Material UI. Keeps me from scrolling on social media. 
+																A simple Twitter posting portal using the
+																Twitter API. Styled with Material UI. Keeps me
+																from scrolling on social media.
 															</p>
 														</div>
 													</div>
@@ -49,10 +51,6 @@ const Projects = () => {
 								</div>
 							</section>
 						</div>
-						
-
-
-
 
 						<div class='column'>
 							<section class='section border-bottom pb-6'>
@@ -159,7 +157,7 @@ const Projects = () => {
 															<p class='mb-4'>
 																A MERN app for meeting new friends based on
 																mutually "liked" restaurants. Made on an agile
-																team of four in one week.
+																team of four.
 															</p>
 														</div>
 													</div>
@@ -183,7 +181,7 @@ const Projects = () => {
 													}}
 												>
 													<div class='card-image p-5'>
-														<figure class='image'>
+														<figure class='image is-1by1'>
 															<img
 																class='is-img-center'
 																src={wowGen}
@@ -195,9 +193,9 @@ const Projects = () => {
 														<div class='content'>
 															<h2 class='mt-2 mb-3'>Wow Generator</h2>
 															<p class='mb-4'>
-																A MERN app for meeting new friends based on
-																mutually "liked" restaurants. Made on an agile
-																team of four in one week.
+																An app which randomly generates scenes from Owen
+																Wilson movies in which he says 'Wow'. Click
+																generate!
 															</p>
 														</div>
 													</div>
@@ -208,9 +206,7 @@ const Projects = () => {
 								</div>
 							</section>
 						</div>
-						<div class='column'>
-							
-						</div>
+						<div class='column'>{/* New project goes here */}</div>
 					</div>
 				</div>
 			</section>
