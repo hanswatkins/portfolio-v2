@@ -9,10 +9,13 @@ const About2 = () => {
 		>
 			<div class='hero-body'>
 				<div>
-					<p className='about-title'>I began my career as an Audio Engineer</p>
+					<p class='title is-size-1 is-size-3-mobile'>I began my career...</p>
+					<p class='subtitle is-size-5 is-size-6-mobile'>
+						as an Audio Engineer:
+					</p>
 					<ul>
 						<li>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
+							<p className='subtitle is-size-5 is-size-6-mobile'>
 								<i class='fa-solid fa-check'></i>{' '}
 								<a
 									class='about-a'
@@ -25,7 +28,7 @@ const About2 = () => {
 							</p>
 						</li>
 						<li>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
+							<p className='subtitle is-size-5 is-size-6-mobile'>
 								<i class='fa-solid fa-check'></i>{' '}
 								<a
 									class='about-a'
@@ -38,7 +41,7 @@ const About2 = () => {
 							</p>
 						</li>
 						<li>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
+							<p className='subtitle is-size-5 is-size-6-mobile'>
 								<i class='fa-solid fa-check'></i>{' '}
 								<a
 									class='about-a'
@@ -51,7 +54,7 @@ const About2 = () => {
 							</p>
 						</li>
 						<li>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
+							<p className='subtitle is-size-5 is-size-6-mobile'>
 								<i class='fa-solid fa-check'></i>{' '}
 								<a
 									class='about-a'

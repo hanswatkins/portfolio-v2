@@ -1,9 +1,5 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
-html {
-  background-color: #f1edea;
-}
-
-a {
-  text-decoration: none;
+html,body{
+    overflow-x: hidden;
 }

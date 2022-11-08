@@ -8,16 +8,10 @@ import wowGen from '../photos/wowGen.png';
 
 const Projects = () => {
 	return (
-		<div class='container-adjust'>
+		
 			<section class='section is-small' style={{ backgroundColor: '#2f4a5c' }}>
 				<h1 class='projects-title has-text-centered'>Projects.</h1>
-				<div
-					class='columns is-three-quarters-mobile
-is-two-thirds-tablet
-is-half-desktop
-is-one-third-widescreen
-is-one-quarter-fullhd'
-				>
+				<div class='columns'>
 					<div class='column'>
 						<section class='section border-bottom'>
 							<div class='container'>
@@ -133,7 +127,10 @@ is-one-quarter-fullhd'
 							</div>
 						</section>
 					</div>
-				</div>
+			</div> {/** move this div to the bottom*/}
+			
+
+
 				<div class='columns'>
 					<div class='column'>
 						<section class='section border-bottom'>
@@ -214,7 +211,7 @@ is-one-quarter-fullhd'
 					<div class='column'>{/* New project goes here */}</div>
 				</div>
 			</section>
-		</div>
+		
 	);
 };
 
