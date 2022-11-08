@@ -9,8 +9,8 @@ const Home = () => {
 		>
 			<div class='hero-body'>
 				<div>
-					<h2 className='main-title'>Hi, I'm Hans Watkins.</h2>
-					<p className='main-subtitle'>Full Stack Software Developer</p>
+					<p className='main-title'>Hi, I'm Hans Watkins.</p>
+					<p className='main-subtitle'>a Full-Stack Software Developer </p>
 				</div>
 			</div>
 		</section>

@@ -14,55 +14,24 @@ const About3 = () => {
 						I have built with and am comfortable using the following:
 					</p>
 					<br />
-					<div class='columns'>
-						<div class='column'>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> HTML5
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> CSS3
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> JavaScript ES6
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Python3
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> React
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> PostgreSQL
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Git
-							</p>
-						</div>
-
-						<div class='column'>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Django
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Mongoose
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Node.js
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> MongoDB
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Bootstrap
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> MaterialUI
-							</p>
-							<p className='about-subtitle' style={{ fontSize: '1.5rem' }}>
-								<i class='fa-regular fa-square-check fa-2xs'></i> Bulma
-							</p>
-						</div>
+					<div class='tags'>
+						<span class='tag is-large'>HTML5</span>
+						<span class='tag is-large'>CSS3</span>
+						<span class='tag is-large'>JavaScript ES6</span>
+						<span class='tag is-large'>Python3</span>
+						<span class='tag is-large'>React</span>
+						<span class='tag is-large'>PostgreSQL</span>
+						<span class='tag is-large'>Git</span>
 					</div>
+						<div class="tags">
+							<span class='tag is-large'>Django</span>
+							<span class='tag is-large'>Mongoose</span>
+							<span class='tag is-large'>Node.js</span>
+							<span class='tag is-large'>MongoDB</span>
+							<span class='tag is-large'>Bootstrap</span>
+							<span class='tag is-large'>MaterialUI</span>
+							<span class='tag is-large'>Bulma</span>
+						</div>
 				</div>
 			</div>
 		</section>
