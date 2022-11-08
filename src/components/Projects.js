@@ -173,7 +173,7 @@ const Projects = () => {
 								<div class='container'>
 									<div class='columns'>
 										<div class='column'>
-											<a href='https://meet-n-eat.netlify.app/home'>
+											<a href='https://wowgenerator.netlify.app'>
 												<div
 													class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
 													style={{
