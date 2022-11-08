@@ -7,7 +7,7 @@ import meetNEat from '../photos/meetNEat.png';
 const Projects = () => {
   return (
     <div class='container-adjust'>
-      <section class='section is-medium' style={{ backgroundColor: '#fafafa' }}>
+      <section class='section is-small' style={{ backgroundColor: '#fafafa' }}>
         <div class='container-max-width'>
           <h1 class='projects-title has-text-centered'>Projects.</h1>
           <div class='columns'>
@@ -21,7 +21,7 @@ const Projects = () => {
                           class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
                           style={{
                             backgroundColor: '#fafafa',
-                            outline: '1px solid',
+                            
                           }}
                         >
                           <div class='card-image p-5 pb-6'>
@@ -29,7 +29,7 @@ const Projects = () => {
                               <img
                                 class='is-img-center'
                                 src={jsPixartPic}
-                                alt='Placeholder image'
+                                alt='js pixart'
                               />
                             </figure>
                           </div>
@@ -60,12 +60,16 @@ const Projects = () => {
                           class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
                           style={{
                             backgroundColor: '#fafafa',
-                            outline: '1px solid',
+                            
                           }}
                         >
                           <div class='card-image p-5 pb-6'>
                             <figure class='image'>
-                              <img class='is-img-center' src={weatherPic} />
+                              <img
+                                class='is-img-center'
+                                src={weatherPic}
+                                alt='weather app'
+                              />
                             </figure>
                           </div>
                           <div class='card-content py-5'>
@@ -95,7 +99,7 @@ const Projects = () => {
                           class='card py-4 is-showdow-2xl is-shadow-none is-cursor-pointer transform is-duration-500 hover-translate-y'
                           style={{
                             backgroundColor: '#fafafa',
-                            outline: '1px solid',
+                            
                           }}
                         >
                           <div class='card-image p-5 pb-6'>
@@ -103,7 +107,7 @@ const Projects = () => {
                               <img
                                 class='is-img-center'
                                 src={meetNEat}
-                                alt='Placeholder image'
+                                alt='meet n eat'
                               />
                             </figure>
                           </div>

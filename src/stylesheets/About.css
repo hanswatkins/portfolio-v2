@@ -1,39 +1,50 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
 @font-face {
-  font-family: InterRegular;
-  src: url('../fonts/Inter-Regular.woff2');
+	font-family: InterRegular;
+	src: url('../fonts/Inter-Regular.woff2');
 }
 @font-face {
-  font-family: InterBold;
-  src: url('../fonts/Inter-Bold.woff2');
+	font-family: InterBold;
+	src: url('../fonts/Inter-Bold.woff2');
 }
 @font-face {
-  font-family: InterExtraBold;
-  src: url('../fonts/Inter-ExtraBold.woff2');
-}
-
-section {
-  color: #28282c;
+	font-family: InterExtraBold;
+	src: url('../fonts/Inter-ExtraBold.woff2');
 }
 
 .about-title {
-  font-family: InterExtraBold;
-  font-size: 5rem;
-  color: transparent;
-  -webkit-text-stroke: 1px #28282c;
+	font-family: InterExtraBold;
+	font-size: 4rem;
+	color: transparent;
+	-webkit-text-stroke: 1px #f1e7db;
 
-  /* position: absolute;
+	/* position: absolute;
   z-index: 1;
   padding-left: 1rem; */
 }
 
-a {
-  color: black;
+.about-subtitle {
+	font-family: InterRegular, Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
 }
 
-p,
-li {
-  font-family: InterRegular, Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+a:hover {
+	font-size: 105%;
+	color: #3cac86;
+	transition: 0.3s;
+	transform: translateX(2em);
+}
+
+a {
+	transition: 0.3s;
+}
+
+li i a {
+	display: block;
+}
+
+a::before {
+	display: block;
+	font-size: 110%;
 }

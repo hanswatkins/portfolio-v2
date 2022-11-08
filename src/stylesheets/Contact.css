@@ -24,3 +24,10 @@ textarea {
 .button {
   margin-top: 1rem;
 }
+
+.contact-title {
+	font-family: InterExtraBold;
+	font-size: 4rem;
+	color: transparent;
+	-webkit-text-stroke: 1px #000000;
+}

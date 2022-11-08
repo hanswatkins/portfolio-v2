@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section class='section is-large'>
       <div class='block'></div>
-      <h2 class='title is-2'>Get in touch</h2>
+      <h2 class='contact-title'>Get in touch.</h2>
       <div class='columns'>
         <div class='column'></div>
         <div class='column'>
