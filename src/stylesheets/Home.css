@@ -1,14 +1,14 @@
 @font-face {
-  font-family: InterRegular;
-  src: url('../fonts/Inter-Regular.woff2');
+	font-family: InterRegular;
+	src: url('../fonts/Inter-Regular.woff2');
 }
 @font-face {
-  font-family: InterBold;
-  src: url('../fonts/Inter-Bold.woff2');
+	font-family: InterBold;
+	src: url('../fonts/Inter-Bold.woff2');
 }
 @font-face {
-  font-family: InterExtraBold;
-  src: url('../fonts/Inter-ExtraBold.woff2');
+	font-family: InterExtraBold;
+	src: url('../fonts/Inter-ExtraBold.woff2');
 }
 
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
@@ -23,20 +23,24 @@
 } */
 
 .title {
-  font-family: InterExtraBold, Arial, Helvetica, sans-serif;
-  /* font-size: 6rem; */
-  color: transparent!important;
-  -webkit-text-stroke: 1px #f1e7db;
+	font-family: InterExtraBold, Arial, Helvetica, sans-serif;
+  color: #f1e7db !important;
+	/* font-size: 6rem; */
 }
 
 .subtitle {
-  font-family: InterRegular, Arial, Helvetica, sans-serif;
-  color: #f1e7db!important;
+	font-family: InterRegular, Arial, Helvetica, sans-serif;
+	color: #f1e7db !important;
 }
 
+.test-title {
+	font-size: 8vw;
+	font-family: InterExtraBold;
+	color: transparent !important;
+	-webkit-text-stroke: 1px #f1e7db;
+}
 
-
-
-
-
-
+.test-subtitle {
+	font-size: 3vw;
+	font-family: InterRegular;
+}

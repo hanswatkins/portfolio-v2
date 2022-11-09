@@ -9,29 +9,31 @@ const About3 = () => {
 		>
 			<div class='hero-body'>
 				<div>
-					<p className='about-title'>Languages and Technologies.</p>
-					<p className='about-subtitle'>
+					<p className='title is-size-1 is-size-4-mobile'>
+						Languages & Technologies.
+					</p>
+					<p className='subtitle is-size-5 is-size-6-mobile'>
 						I have built with and am comfortable using the following:
 					</p>
 					<br />
-					<div class='tags'>
-						<span class='tag is-large'>HTML5</span>
-						<span class='tag is-large'>CSS3</span>
-						<span class='tag is-large'>JavaScript ES6</span>
-						<span class='tag is-large'>Python3</span>
-						<span class='tag is-large'>React</span>
-						<span class='tag is-large'>PostgreSQL</span>
-						<span class='tag is-large'>Git</span>
+					<div class='tags are-medium'>
+						<span class='tag'>HTML5</span>
+						<span class='tag'>CSS3</span>
+						<span class='tag'>JavaScript ES6</span>
+						<span class='tag'>Python3</span>
+						<span class='tag'>React</span>
+						<span class='tag'>PostgreSQL</span>
+						<span class='tag'>Git</span>
 					</div>
-						<div class="tags">
-							<span class='tag is-large'>Django</span>
-							<span class='tag is-large'>Mongoose</span>
-							<span class='tag is-large'>Node.js</span>
-							<span class='tag is-large'>MongoDB</span>
-							<span class='tag is-large'>Bootstrap</span>
-							<span class='tag is-large'>MaterialUI</span>
-							<span class='tag is-large'>Bulma</span>
-						</div>
+					<div class='tags are-medium'>
+						<span class='tag'>Django</span>
+						<span class='tag'>Mongoose</span>
+						<span class='tag'>Node.js</span>
+						<span class='tag'>MongoDB</span>
+						<span class='tag'>Bootstrap</span>
+						<span class='tag'>MaterialUI</span>
+						<span class='tag'>Bulma</span>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -10,7 +10,7 @@ const Projects = () => {
 	return (
 		
 			<section class='section is-small' style={{ backgroundColor: '#2f4a5c' }}>
-				<h1 class='projects-title has-text-centered'>Projects.</h1>
+				<h1 class='title has-text-centered'>Projects.</h1>
 				<div class='columns'>
 					<div class='column'>
 						<section class='section border-bottom'>

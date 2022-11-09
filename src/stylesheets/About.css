@@ -15,14 +15,12 @@
 
 .about-title {
 	font-family: InterExtraBold;
-	font-size: 4rem;
 	color: transparent;
 	-webkit-text-stroke: 1px #f1e7db;
 }
 
 .about-subtitle {
 	font-family: InterRegular, Arial, Helvetica, sans-serif;
-	font-size: 1.5rem;
 }
 
 .about-a:hover {

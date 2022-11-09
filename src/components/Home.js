@@ -9,10 +9,10 @@ const Home = () => {
 		>
 			<div class='hero-body'>
 				<div class=''>
-					<p className='title is-size-1 is-size-3-mobile'>
+					<p className='test-title'>
 						Hi, I'm Hans Watkins.
 					</p>
-					<p className='subtitle is-size-4 is-size-6-mobile '>
+					<p className='test-subtitle'>
 						a Full-Stack Software Developer{' '}
 					</p>
 				</div>
